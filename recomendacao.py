@@ -22,7 +22,7 @@ def getSimilares(base, user):
                     for outro in base if outro != user]
     similaridade.sort()
     similaridade.reverse()
-    return similaridade[0:30]
+    return similaridade[0:10]
 
 #Recomendações
 def getRecomendacoesUsuario(base, user):
@@ -43,7 +43,7 @@ def getRecomendacoesUsuario(base, user):
     rankings = [(total / somaSimilaridade[item], item) for item, total in totais.items()]
     rankings.sort()
     rankings.reverse()
-    return rankings[0:10]
+    return rankings[0:30]
 
 #Carregar Movie Lens
 def carregaMovieLens(path='C:/ml-100k'):
