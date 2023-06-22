@@ -1,0 +1,159 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/*HEADER*/
+header{
+    background-color: #000D20;
+    padding: 15px 0px;
+}
+
+#logo{
+    width: 120px;
+}
+
+.navbar-collapse{
+    gap: 10px;
+}
+
+.navbar-nav{
+    gap: 10px;
+}
+
+.nav-link{
+    color: white !important;
+    text-transform: uppercase;
+    transition: .3s !important;
+}
+
+.nav-link:hover{
+    color: #FF1616 !important;
+}
+
+.form-search .form-control{
+    background-color: #0e1f36 !important;
+    border: none !important;
+    color: #637997 !important;
+}
+
+.form-search .form-control::placeholder{
+    color: #637997 !important;
+}
+
+.navbar-toggler{
+    background-color: #FF1616 !important;
+}
+
+/*DISPLAY e FORMULÁRIO DE ENVIO*/
+#display{
+    height: calc(100vh - 86px);
+    background-image: url('images/background-display.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #0e1f36;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-form{
+    width: 40%;
+    padding: 30px;
+    background-color: #000d2094;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.3); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.3);
+}
+
+.box-form h1{
+    color: white;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.box-form p{
+    color: white;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+#form-envio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+#form-envio input[type="text"], #form-envio input[type="submit"]{
+    width: 100%;
+}
+
+#form-envio input[type="text"]{
+    background-color: #0e1f36 !important;
+    border: none !important;
+    color: #637997 !important;
+}
+
+#form-envio input[type="text"]::placeholder{
+    color: #637997 !important;
+}
+
+.btn{
+    background-color: #FF1616 !important;
+    color: white !important;
+    text-transform: uppercase;
+    transition: .3s !important;
+}
+
+.btn:hover{
+    background-color: #0e1f36 !important;
+}
+
+/*RECOMENDATIONS*/
+#recomendations{
+    background-color: #0e1f36;
+}
+
+.areaRecomendations{
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+.cards-recomendations{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap !important;
+    gap: 30px;
+}
+
+.card{
+    width: 20%;
+    border: none !important;
+}
+
+.card-body{
+    border-color: #000D20;
+    background-color: #000D20;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.3); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.3);
+    color: white !important;
+    text-align: center;
+}
+
+#porcentagemFilme{
+    font-weight: bold;
+}
+
+/*MODELS*/
+#models{
+    display: none;
+}
